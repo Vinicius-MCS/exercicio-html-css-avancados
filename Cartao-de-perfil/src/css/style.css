@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+div.container {
+    font-family: kumbh sans;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.fundo-card {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+div.info-gerais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 1px solid hsl(227, 10%, 46%);
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+p {
+    margin: 10px;
+}
+
+span {
+    color: hsl(227, 10%, 46%);
+}
+
+.peso-menor {
+    font-weight: 400;
+}
+
+div.info-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.descricao {
+    width: 100px;
+    display: flex;
+    text-align: center;
+}

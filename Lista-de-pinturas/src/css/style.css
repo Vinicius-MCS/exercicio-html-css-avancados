@@ -1,0 +1,12 @@
+@media (min-width: 890px) {
+    .container {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
