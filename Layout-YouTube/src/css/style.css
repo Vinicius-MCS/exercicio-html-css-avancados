@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    font-family: Roboto;
+    background-color: #F7F7F7;
+}
+
+.container {
+    display: grid;
+    grid: "secao-principal aside" 100% / 650px 270px;
+    padding: 35px;
+}
+
+.secao-principal {
+    grid-area: secao-principal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secao-principal h1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.secao-principal span {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.secao-principal p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.video-lateral {
+    display: flex;
+    gap: 5px;
+}
+
+.video-lateral img {
+    width: 101px;
+    height: 71px;
+}
+
+.info-video {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.info-video h1 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.info-video span {
+    font-weight: 300;
+    font-size: 11px;
+}
+
